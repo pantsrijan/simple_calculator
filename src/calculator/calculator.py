@@ -20,6 +20,20 @@ def magicSquares(n):
     """Calculates the magic squares number"""
     return (n * (n**2 + 1)) / 2
 
+def hypotenuse(a, b):
+    """Calculates the hypotenuse of a right triangle given two sides"""
+    return (a**2 + b**2) ** 0.5
+
+
+def power(base, exp):
+    """Raises base to the power of exp"""
+    return base ** exp
+
+
+def modulo(a, b):
+    """Returns the remainder of a divided by b"""
+    return a % b
+
 
 def run_calculator(input_formula, input_num):
     """Calls and returns results for the specified formulas"""
