@@ -15,4 +15,3 @@ RUN . .venv/bin/activate && pytest
 CMD [".venv/bin/python", "src/calculator/calculator.py"]
 EOF 
 
-
